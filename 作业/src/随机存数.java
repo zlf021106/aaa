@@ -8,15 +8,15 @@ public static void main(String[] args){
     int min=arr[0];
     int sum=0;
     int average=0;
-    for(int i=0;i<arr.length;i++){
-        if(max<arr[i]){
-            max=arr[i];
+    for (int j : arr) {
+        if (max < j) {
+            max = j;
         }
-        if(min>arr[i]){
-            min=arr[i];
+        if (min > j) {
+            min = j;
         }
-        sum+=arr[i];
-        average=sum/20;
+        sum += j;
+        average = sum / 20;
     }
     System.out.println("最大值："+max);
     System.out.println("最小值："+min);
