@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class text2 {
     public static void main(String[] args){
         int num1=1;
         int num2=1;

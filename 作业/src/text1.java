@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class leap {
+public class text1{
     public static void main(String[] args) {
         System.out.println("请输入一个年份:");
         Scanner scan = new Scanner(System.in);
