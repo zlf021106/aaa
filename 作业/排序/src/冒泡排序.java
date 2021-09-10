@@ -12,7 +12,7 @@ public class 冒泡排序 {
         }
     }
     public static void main(String args[]){
-        int[] b=new int[]{13,23,43,45,65,67};
+        int[] b=new int[]{13,23,43,45,6,67};
         sort(b);
         for(int i=0;i<b.length;i++)
             System.out.print(b[i]+",");
