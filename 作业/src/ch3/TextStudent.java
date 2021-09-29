@@ -6,7 +6,7 @@ public class TextStudent{
         student s = new student();
         s.name = "张大炮";
         s.age = 18;
-        s.stuty();
+        s.study();
     }
 }
 

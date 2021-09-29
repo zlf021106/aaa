@@ -71,7 +71,7 @@ public class Account {
         other.balance = other.balance + money;
     }
     public void print() {
-        System.out.println("账号：" + id + " 户名：" + name + " 余额：+balance");
+        System.out.println("账号：" + id + " 户名：" + name + " 余额："+balance);
     }
     public static void main(String[] args) {
         Account zhangSan = new Account("001","张三",1000);
