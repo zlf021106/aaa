@@ -18,6 +18,7 @@ public class FirstThread extends Thread {
         System.out.println("开始启动t1,t2线程");
         t1.start();
         t2.start();
+        t2.setDaemon(true);//将t2设为守护线程，当普通线程执行完之后，守护线程也没有必要执行下去(不会立即停止)
         System.out.println("main方法运行完毕");
     }
 }
